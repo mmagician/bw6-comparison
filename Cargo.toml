@@ -1,0 +1,18 @@
+[package]
+name = "bw6-comparison"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-ff = { version= "0.4.0", default-features = false }
+ark-ec = { version= "0.4.0", default-features = false }
+ark-std = { version = "0.4.0", default-features = false }
+ark-bw6-761 = { version = "0.4.0", default-features = false }
+
+# Patch with the right branch / local checkout to test
+# [patch.crates-io]
+# ark-ff = 
+# ark-bw6-761 = 
+# ark-ec = 
